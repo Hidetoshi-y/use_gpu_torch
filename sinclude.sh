@@ -9,7 +9,7 @@ set -xe
 #export TF_CPP_MIN_LOG_LEVEL=3
 
 # variables
-IMAGE='nvcr.io#nvidia/tensorflow:21.03-tf1-py3'
+IMAGE='nvcr.io/nvidia/pytorch:21.03-py3'
 REPO=${REPO:-$(basename $PWD)}
 GPUS=${GPUS:-'1'}
 OPTS=${OPTS:-'--container-mounts=.:/workspace --container-workdir=/workspace'}
