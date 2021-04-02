@@ -8,4 +8,7 @@ https://symfoware.blog.fc2.com/blog-entry-2344.html
 
 # ToDO list
 - sbuildができない -> NvidiaImageがおかしい？
-- Gtuneでは動作確認済み　２つ目のURLにしたがってPytorchをインストール
+
+# 編集履歴
+4/2 Gtuneでは２つ目のURLを参考にPytorchをインストールしたら
+動作確認
