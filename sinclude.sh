@@ -10,6 +10,7 @@ set -xe
 
 # variables
 IMAGE='nvcr.io#nvidia/pytorch:21.03-py3'
+#https://ngc.nvidia.com/catalog/containers/nvidia:pytorch
 REPO=${REPO:-$(basename $PWD)}
 GPUS=${GPUS:-'1'}
 OPTS=${OPTS:-'--container-mounts=.:/workspace --container-workdir=/workspace'}
