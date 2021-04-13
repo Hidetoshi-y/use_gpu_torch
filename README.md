@@ -12,3 +12,6 @@ https://symfoware.blog.fc2.com/blog-entry-2344.html
 # 編集履歴
 4/2 Gtuneでは２つ目のURLを参考にPytorchをインストールしたら
 動作確認
+
+4/3 AIクラウドシステムで動作を確認
+nvidia.io#のように「／」を「＃」にする必要があった。
